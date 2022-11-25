@@ -1,0 +1,44 @@
+{
+    "<class 'models.Category'>": {
+        "1": {
+            "name": "Nova kategorija"
+        },
+        "2": {
+            "name": "Test kategorija",
+            "id": null
+        },
+        "3": {
+            "name": "Potpuno nova kate",
+            "id": null
+        }
+    },
+    "<class 'models.Employee'>": {
+        "1": {
+            "id": 1,
+            "first_name": "Milos",
+            "last_name": "Milosevic",
+            "number_of_holidays_left": 11,
+            "holidays": [
+                {
+                    "start_date": "25-11-2022",
+                    "end_date": "9-12-2022",
+                    "category": "Nova kategorija"
+                }
+            ]
+        },
+        "2": {
+            "id": null,
+            "first_name": "Jovan",
+            "last_name": "Jovanovic",
+            "number_of_holidays_left": 21,
+            "holidays": []
+        },
+        "3": {
+            "id": null,
+            "first_name": "Ivan",
+            "last_name": "Ivanovic",
+            "number_of_holidays_left": 12,
+            "holidays": []
+        }
+    }
+}
